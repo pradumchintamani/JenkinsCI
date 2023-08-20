@@ -3,6 +3,7 @@ pipeline{
     stages{
         stage('CheckOut') {
             echo "This is Checkout stage for sample pipeline"
+        }
         stage('Build') {
             echo "This is Build stage for sample pipeline"
         }
